@@ -1,0 +1,24 @@
+* {
+    margin: 0;
+}
+
+.parte-superior {
+    background-color: rgb(15, 15, 15);
+    color: whitesmoke;
+    text-align: center;
+}
+
+.titulo {
+    font-size: 200%;
+}
+.sub-titulo {
+    font-size: 150%;
+}
+
+.nav-links {
+display: flex;  
+justify-content: space-between;  
+color: gold;
+background-color: rgb(155, 140, 140);
+
+}
