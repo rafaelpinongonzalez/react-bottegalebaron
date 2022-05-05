@@ -1,22 +1,22 @@
 import React from 'react'
-import { NavLink } from 'react-router-dom'
+import { Link } from 'react-router-dom'
 
 export const Botones = () => {
   return (
       <nav>
       <ol>
       <li>
-      <NavLink exact to="/"activeClassName="active">
+      <Link exact to="/"activeclassname="active">
        Home
-      </NavLink>
+      </Link>
 
-      <NavLink to="/Acerca" activeClassName="active">
+      <Link to="/Acerca" activeclassname="active">
      Acerca
-    </NavLink>
+    </Link>
 
-    <NavLink  to ="/Contacto" activeClassName="active">
+    <Link  to ="/Contacto" activeclassname="active">
     Contacto
-   </NavLink>
+   </Link>
       </li>
       </ol>  
       </nav>

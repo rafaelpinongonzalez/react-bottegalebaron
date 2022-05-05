@@ -1,28 +1,30 @@
 import React, { Component } from "react";
-import { NavLink } from "react-router-dom";
+import { Link } from "react-router-dom";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import{faAddressBook, faBell, faLocationDot} from "@fortawesome/free-solid-svg-icons"
+import{faAddressBook, faLocationDot} from "@fortawesome/free-solid-svg-icons"
+
+import "../../estilos/home.css";
+
 
 
 
 export default class NavigationComponent extends Component {
-  constructor() {
-    super();
-  }
-
   render() {
     return (
-      <div className="nav-links">
-        {/* <NavLink exact to="/" activeClassName="nav-link-active">
-       
-        </NavLink> */}
-        <NavLink to="/contact" activeClassName="nav-link-active">
+      <div className="parte-superior">
+        <div className="titulo">
+          <p>BOTTEGA LEBARON</p>
+        </div>
+        <div className="sub-titulo">
+          <p>CARRERA TECNICA</p>
+        </div>
+        <Link to="/contact" activeclassname="nav-link-active">
         <FontAwesomeIcon icon={faAddressBook}/>
-        </NavLink>
+        </Link>
 
-        <NavLink to="/location" activeClassName="nav-link-active">
+        <Link to="/location" activeclassname="nav-link-active">
         <FontAwesomeIcon icon={faLocationDot}/>
-        </NavLink>
+        </Link>
         {/* {false ? <button>Add Blog</button> : null} */}
       </div>
     );
