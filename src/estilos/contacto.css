@@ -1,0 +1,77 @@
+.contactotodo {
+    color: white;
+}
+
+.cabeza {
+    background-color: black;
+    
+}
+
+.titulo {
+    text-align: center;
+}
+.subtitulo {
+    text-align: center;
+}
+
+.icono {
+    margin-top: -5%;
+    margin-left: 2%;
+}
+.icono :hover {
+    color: gold;
+}
+
+.iconoubicacion :hover {
+    color: gold;
+}
+.iconoubicacion {
+    text-align: right;
+    margin-top: -6%;
+    margin-right: 2%;
+}
+.contactos {
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 150%;
+    font-weight: bold;
+    margin-top: 1%;
+}
+.numeroescuela :hover {
+    color: blue;
+
+}
+.numeroadmin :hover {
+    color: blue;
+
+}
+
+.departamentos {
+    display: flex;
+    justify-content: space-between;
+    margin: 2% 20%;
+    font-size: 150%;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+.cajacorreos {
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.correos {
+    display: flex;
+    justify-content: space-between;
+    margin: 2% 18%;
+    font-size: 150%;
+}
+
+.iconos {
+    display: flex;
+    justify-content: space-between;
+    margin: 5% 25%;
+}
+
+.iconos :hover{
+color: gold;
+}

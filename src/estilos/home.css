@@ -1,24 +1,176 @@
 * {
     margin: 0;
+    
+    
+}
+body {
+    background-color: black;
+
+}
+h1 {
+    color: gold;
 }
 
+li {
+    font-weight: bold;
+}
 .parte-superior {
-    background-color: rgb(15, 15, 15);
+   padding-top: 1%;
+   padding-bottom: 1%;
+    background-color: black;
     color: whitesmoke;
     text-align: center;
 }
 
 .titulo {
     font-size: 200%;
+ font-weight: bold;
+ margin-bottom: 0%;
 }
 .sub-titulo {
     font-size: 150%;
+    font-weight: bold;
+    margin-bottom: 1%;
 }
 
-.nav-links {
+.links {
 display: flex;  
 justify-content: space-between;  
-color: gold;
-background-color: rgb(155, 140, 140);
+}
 
+.links {
+    cursor: pointer;
+    color: gold;
+    font-size: 3em;
+    transition: 0.5s ease-in-out ;
+    margin-top: -5%;
+    margin-left: 10%;
+    margin-right: 10%;
+    /* &:hover{
+    color: $warning;
+    } */
+}
+.links :hover {
+    color: yellow;
+    transition: 0.3s;
+    font-size: 120%;
+}
+
+.medio {
+    margin: -0.5%;
+    background-color: black;
+}
+
+.plus {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 0.5%;
+    margin-left: 10%;
+    margin-right: 10%;
+    font-size: 150%;
+    font-weight: bold;
+    color: aliceblue;
+}
+
+.face-registro-wats {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 15%;
+    margin-right: 15%;
+    margin-top: 2%;
+    
+}
+.facebook {
+    font-size: 300%;
+}
+.facebook :hover{
+    font-size: 120%;
+    color: gold;
+    transition: 0.3s;
+    
+}
+
+.boton-registro button{
+    margin-top: 7%;
+    font-size: 150%;
+    color: black;
+    font-weight: bold;
+    border-radius: 10px;
+    background-color: goldenrod;
+
+}
+.boton-registro  :hover {
+background-color: yellow;
+font-size: 125%;
+
+}
+
+.whatsapp {
+    font-size: 300%;
+}
+.whatsapp :hover{
+    font-size: 120%;
+    color: gold;
+    transition: 0.3s;
+}
+
+.imagentextouno {
+    display: flex;
+    color: white;
+    font-size: 180%;
+    margin-left: 5%;
+    margin-top: 3%;
+    margin-right: 5%;
+}
+ .imguno img {
+     border-radius: 35px;
+     width: 80%;
+ }
+
+ .textuno {
+     margin-top: 2%;
+     margin-left: -8%;
+ }
+  
+ .imagetextdos {
+     display: flex;
+     color: white;
+     font-size: 180%;
+     margin-left: 5%;
+     margin-right: 5%;
+ }
+
+ .textdos {
+     margin-top: 2%;
+    
+ }
+ .imgdos {
+     margin-top: 3%;
+ }
+
+ .imgdos img{
+    border-radius: 35px;
+     width: 90%;
+ }
+
+ .imagetextres {
+     display: flex;
+     color: white;
+     font-size: 180%;
+ }
+
+ .imgtres {
+     margin-top: 3%;
+ }
+ .imgtres img{
+    border-radius: 35px;
+    width: 90%;
+    height: 80%;
+}
+.textres {
+    margin-top: 10%;
+} 
+.video {
+    display: flex;
+    margin-top: -9%;
 }
